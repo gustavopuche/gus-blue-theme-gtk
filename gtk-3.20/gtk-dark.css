@@ -57,7 +57,7 @@
 @define-color button_fg_color #1e90ff;
 @define-color header_button_bg_color #1e90ff;
 @define-color header_button_fg_color #000000;
-@define-color insensitive_bg_color mix(#000000,#ffaa80,0.6);
+@define-color insensitive_bg_color mix(#000000,#ffffff,0.6);
 @define-color insensitive_fg_color mix(#81befa,#000000,0.5);
 /* osd */
 @define-color osd_base #61aefa;
@@ -806,14 +806,14 @@ entry, menuitem entry, popover.background entry, .osd entry,
       color: #c39d59; }
   entry.error, popover.background entry.error,
   #XfceNotifyWindow entry.error, #login_window entry.error {
-    color: #ffaa80;
+    color: #ffff00;
     border-color: #a03467;
     background-color: mix(#ffaa80,#c34581,0.6); }
     entry.error image, #XfceNotifyWindow entry.error image, #login_window entry.error image {
-      color: #ffaa80; }
+      color: #ffff00; }
     entry.error:focus,
     #XfceNotifyWindow entry.error:focus, #login_window entry.error:focus {
-      color: #ffaa80;
+      color: #ffff00;
       border-color: mix(#ffaa80,#c34581,0.3);
       background-color: #c34581;
       box-shadow: none; }
@@ -822,14 +822,14 @@ entry, menuitem entry, popover.background entry, .osd entry,
       color: #c34581; }
   entry.search-missing, popover.background entry.search-missing,
   #XfceNotifyWindow entry.search-missing, #login_window entry.search-missing {
-    color: #ffaa80;
+    color: #ffff00;
     border-color: #a03467;
     background-color: mix(#ffaa80,#c34581,0.6); }
     entry.search-missing image, #XfceNotifyWindow entry.search-missing image, #login_window entry.search-missing image {
-      color: #ffaa80; }
+      color: #ffff00; }
     entry.search-missing:focus,
     #XfceNotifyWindow entry.search-missing:focus, #login_window entry.search-missing:focus {
-      color: #ffaa80;
+      color: #ffff00;
       border-color: mix(#ffaa80,#c34581,0.3);
       background-color: #c34581;
       box-shadow: none; }
@@ -844,7 +844,7 @@ entry {
   padding: 5px 7.28571px;
   color: #8998ff;
   caret-color: #ffa500;
-  -gtk-secondary-caret-color: #ffaa80; }
+  -gtk-secondary-caret-color: #ffff00; }
   entry:focus, entry:hover {
     border-color: mix(#ffaa80,mix(#8998ff,#ffaa80,0.7),0.3); }
   entry:active, entry:active:hover, entry:active:focus, entry:active:hover:focus, entry:checked, entry:checked:hover, entry:checked:focus, entry:checked:hover:focus {
@@ -859,7 +859,7 @@ entry {
     background-color: mix(#ffaa80,#8998ff,0.07);
     background-image: none;
     opacity: .9;
-    color: mix(#ffaa80,#8998ff,0.9); }
+    color: mix(#ffff00,#8998ff,0.9); }
 
 /*********
  ! Buttons
